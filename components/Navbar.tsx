@@ -7,7 +7,7 @@ export function NavBar() {
     return (
         <Navbar fluid rounded>
           <NavbarBrand as={Link} href="/">
-            <Image src={Logo} alt="LaslesVPN Logo" width={32} height={32} className="mr-3 h-6 sm:h-9" />
+            <Image src={Logo} alt="LaslesVPNn Logo" width={32} height={32} className="mr-3 h-6 sm:h-9" />
             <span className="self-center whitespace-nowrap text-xl  dark:text-white">Lasles<span className="font-bold">VPN</span></span>
           </NavbarBrand>
           <NavbarToggle />
